@@ -1,21 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>刘豪放的个人简历</title>
-    <link rel="stylesheet" href="./index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="//at.alicdn.com/t/font_2374328_yxlvszokbzs.css"
+    />
+  </head>
+  <body>
     <header>
-        <img class="avatar" src="./imgs/avatar.jpg" alt="头像">
-        <h1>刘豪放</h1>
-        <p>前端开发工程师</p>
+      <img class="avatar" src="./imgs/avatar.jpg" alt="头像" />
+      <h1>刘豪放</h1>
+      <p>前端开发工程师</p>
     </header>
     <main>
-        <section>section 1</section>
-        <section>section 2</section>
-    </main>
-</body>
+      <div class="column-left">
+        <section class="basic-info">
+          <span class="iconfont icon-user"></span>
+          <h2>基本信息</h2>
+          <div class="details">
+            <div><span class="iconfont icon-phone"></span>15890999510</div>
+            <div><span class="iconfont icon-wechat"></span>Lucas_Liiu</div>
+            <div>
+              <span class="iconfont icon-Email"></span>haofanglucas@qq.com
+            </div>
+            <div><span class="iconfont icon-xueli"></span>硕士</div>
+          </div>
+        </section>
+        <section class="skills-info">
+          <span class="iconfont icon-skill"></span>
+          <h2>掌握技能</h2>
+          <div class="details">
+            <ul>
+              <li>
+                掌握HTML5/CSS3，熟悉传统布局、Flex布局、Grid布局、移动端适配等
+              </li>
+              <li>熟悉React / Redux技术栈等使用，能够使用React进行基本开发</li>
+              <li>
+                熟悉Vue技术栈如Vue-Router、Vuex、Vue-CLI及相关流行库的使用，理解其重要概念
+              </li>
+              <li>熟悉前后端交互技术JSONP、AJAX，了解fetch</li>
+              <li>熟悉Node.js开发，能搭建基础后台开发</li>
+            </ul>
+          </div>
+        </section>
+        <section class="skills-map">
+          <span class="iconfont icon-technology_page-bits"></span>
+          <h2>技能图谱</h2>
+          <div class="details">
+            <dl>
+                <dt>Javascript</dt>
+                <dd><span class="bar" style="width: 75%;"></span></dd>
+                <dt>CSS3</dt>
+                <dd><span class="bar" style="width: 65%;"></span></dd>
+                <dt>Node</dt>
+                <dd><span class="bar" style="width: 60%;"></span></dd>
+                <dt>React</dt>
+                <dd><span class="bar" style="width: 90%;"></span></dd>
+                <dt>Vue</dt>
+                <dd><span class="bar" style="width: 60%;"></span></dd>
+            </dl>
+          </div>
+        </section>
+      </div>
+      <div class="column-right">
+        <section class="education">
+          <span class="iconfont icon-xueli"></span>
+          <h2>教育经历</h2>
+          <div class="details">
+            <ul>
+              <li class="content-layout">
+                <span class="timeline">2018.02 – 2019.12</span>
+                <h3>莫纳什大学</h3>
+                <span class="major">信息技术</span>
+                <p class="content">研究生（硕士） 澳大利亚墨尔本 QS排名55(2021)</p>
+              </li>
+              <li class="content-layout">
+                <span class="timeline">2013.09 – 2017.06</span>
+                <h3>新疆农业大学</h3>
+                <span class="major">电气工程及其自动化</span>
+                <p class="content">本科</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="job">
+          <span class="iconfont icon-job"></span>
+          <h2>工作经历</h2>
+          <div class="details">
+            <ul>
+              <li class="content-layout">
+                <span class="timeline">2020.06 – 至今</span>
+                <h3>普华永道PwC</h3>
+                <span class="major">前端开发</span>
+                <ul class="content">
+                  <li>
+                    项目介绍：
+                    该项目的目的是搭建线上学习平台，把线下课堂的完整学习流程搬到线上，平台包括课程展示、购买、直播、录播、作业、权限管理、停课复课、试听等几十个大功能。该项目采用前后分离的技术方案，
+                    我主要负责前端部分的开发。项目前端部分使用Vue技术栈，移动端平台使用自己实现的vue
+                    ui组件库。
+                  </li>
+                  <li>
+                    技术栈：vue、vue-router、vuex、element-ui、typescript、webpack、es6、移动端
+                  </li>
+                  <li>
+                    项目成果:
+                    项目支撑饥人谷日常教学活动、运营活动的正常开展，支持数千学生的日常线上学习，几十万用户的日常访问。
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="project">
+          <span class="iconfont icon-xiangmu1"></span>
+          <h2>项目经历</h2>
+          <div class="details">
+            <ul>
+              <li class="content-layout">
+                <span class="timeline">2019.06-2019.12</span>
+                <h3>CNodeJS 中文社区</h3>
+                <span class="major"><a href=" ">点击预览</a></span>
+                <ul class="content">
+                  <li>
+                    项目介绍： 基于 react hooks 以及 ant-design4 模仿完成
+                    CNodeJS 中文社区。
+                  </li>
+                  <li>
+                    技术栈：使用 react-redux 进行整体项目的状态管理，利用
+                    react-router 实现 SPA 单页应用程序，使用基于 promise 的 HTTP
+                    库 Axios 向 CNodeJS 社区 API 获取数据
+                  </li>
+                  <li>项目成果: 熟悉react全家桶的使用</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </main> 
+  </body>
 </html>
